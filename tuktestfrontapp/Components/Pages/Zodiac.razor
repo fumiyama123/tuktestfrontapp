@@ -1,0 +1,10 @@
+﻿@page "/zodiac"
+
+<PageTitle>Zodiac</PageTitle>
+
+<h1>Observability試験用Webページ</h1>
+
+<input placeholder="年を入力してください" @bind="year" />
+<button @onclick="ShowYear">確定</button>
+
+<input @bind-value="orientalZodiac.Value"></input>
