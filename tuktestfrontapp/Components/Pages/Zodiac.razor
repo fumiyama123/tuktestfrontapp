@@ -1,10 +1,11 @@
 ﻿@page "/zodiac"
+@rendermode InteractiveServer
 
 <PageTitle>Zodiac</PageTitle>
 
 <h1>Observability試験用Webページ</h1>
 
 <input placeholder="年を入力してください" @bind="year" />
-<button @onclick="ShowYear">確定</button>
-
+<button class="btn btn-primary" @onclick="ShowYear">Click me</button>
+<br/>
 <input @bind-value="orientalZodiac.Value"></input>
