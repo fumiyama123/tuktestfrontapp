@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NewRelic.Agent" Version="10.20.2" />
+  </ItemGroup>
+
 </Project>
